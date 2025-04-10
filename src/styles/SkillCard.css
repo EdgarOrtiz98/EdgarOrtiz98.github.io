@@ -5,13 +5,14 @@
   justify-content: center;
   color: white;
   min-height: 90vh;
-	padding: 4rem 1rem 0rem 3rem;
+	padding: 4rem 1rem 0rem 1rem;
 }
 
 @media (min-width: 1024px) {
   .home-container {
     flex-direction: row;
     gap: 1rem;
+    padding: 4rem 1rem 0rem 3rem;
   }
 }
 
@@ -21,9 +22,10 @@
 }
 
 .home-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  padding: 1rem 1rem 1rem 0;
+  margin-bottom: -1rem;
 }
 
 .highlight {
@@ -43,7 +45,7 @@
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1rem;
   justify-content: center;
   margin-top: 1rem;
 }
@@ -53,6 +55,7 @@
   min-width: 150px;
 	min-height: 150px;
   text-align: center;
+  padding: 0.1rem;
   border: 5px solid rgb(255, 255, 255);
 }
 
@@ -81,6 +84,13 @@
 }
 
 @media (min-width: 1024px) {
+  .skill-card{
+    padding: 0.5rem;
+  }
+  .home-title{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
   .home-image-section {
     margin-top: 0;
   }
