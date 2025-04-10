@@ -47,19 +47,24 @@
 }
 
 .nav-links li a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #ddd;
 	filter: drop-shadow(0 0 2em #61dafb);
 }
 
 .menu-toggle {
+  box-shadow: none !important;
+  border: none !important;
   display: none;
   background: none;
   border: none;
+  outline: none; 
   color: white;
   font-size: 24px;
   cursor: pointer;
   padding: 10px;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 1300px) {

@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <div className="home-container">
+    <div className="home-container" id='home'>
       <div className="home-text-section">
         <h1 className="home-title">
           DESARROLLADOR <br/>DE <span className="highlight">SOFTWARE</span>
@@ -30,6 +30,26 @@ function App() {
       <div className="home-image-section">
         <img src={edgarImg} alt="Edgar Ortiz Chico" className="home-image" />
       </div>
+    </div>
+    <div className="about-container" id='about'>
+      <div className="about-text-section">
+        <h1 className="about-title">SOBRE MÍ</h1>
+        <p className="about-description">
+          Soy un apasionado desarrollador de software con experiencia en la creación de soluciones innovadoras para desafíos complejos. Mi enfoque se centra en la programación, la inteligencia artificial y la experiencia de usuario.
+        </p>
+        <p className="about-description">
+          Me encanta aprender y explorar nuevas tecnologías, y siempre estoy buscando formas de mejorar mis habilidades y conocimientos.
+        </p>
+        <p className="about-description">
+          Estoy emocionado por la oportunidad de contribuir a proyectos desafiantes y colaborar con equipos talentosos.
+        </p>
+        <p className="about-description">
+          ¡Gracias por visitar mi portafolio!
+        </p>
+      </div>
+      {/* <div className="about-image-section">
+        <img src={edgarImg} alt="Edgar Ortiz Chico" className="about-image" />    
+      </div> */}
     </div>
       <div>
         <a href="https://vite.dev" target="_blank">
