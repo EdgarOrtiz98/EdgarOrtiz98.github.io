@@ -12,9 +12,6 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cff);
-}
-.logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafb);
 }
 
@@ -37,124 +34,7 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
-/* seccion de sobre mi */
-.about-content {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 3rem;
-  align-items: center;
-}
-
-.about-image {
-  flex: 1;
-}
-
-.about-img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.about-text {
-  text-align: left;
-  flex: 1.5;
-  border-radius: 15px;
-  color: white;
-}
-
-.about-text h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  color: #facc15;
-  position: relative;
-  display: inline-block;
-}
-
-.about-details{
-  border: 3px solid #facc15;
-  border-radius: 35px;
-  padding: 2rem;
-}
-.about-details p {
-  margin-bottom: 1.5rem;
-  line-height: 1.8;
-  font-size: 1.1rem;
-}
-
-.cv-options {
-  margin-top: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  text-align: center;
-}
-
-.download-btn, .view-btn {
-  padding: 0.8rem 1.5rem;
-  border-radius: 30px;
-  font-weight: 600;
-  width: 50%;
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
-
-.view-btn {
-  background: #facc15;
-  color: #000000;
-  border: 2px solid #facc15;
-}
-
-.download-btn {
-  background: transparent;
-  color: #facc15;
-  border: 2px solid #facc15;
-}
-
-.view-btn:hover {
-  background: #cb9a08;
-  color: #000000;
-  border-color: #cb9a08;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-.download-btn:hover {
-  background: rgba(250, 204, 21, 0.1);
-  color: #eab308;
-  border-color: #eab308;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-strong {
-  color: #facc15;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .about-content {
-    flex-direction: column;
-    gap: 0;
-  }
-  
-  .about-text{
-    text-align: center;
-  }
-  .about-details{
-    text-align: left;
-  }
-
-  .about-image{
-    visibility: hidden;
-    height: 0;
-    width: 0;
-    padding: 0;
-    margin: 0;
-  }
+.footer {
+  padding-top: 1em;
+  color: #ffffffce;
 }
