@@ -7,8 +7,6 @@ import SkillCard from "./components/SkillCard.jsx";
 import edgarImg from "./assets/images/EdgarDev.png";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar />
@@ -39,10 +37,8 @@ function App() {
         <div className="about-image">
           <img src={edgarImg} alt="Edgar Ortiz Chico" className="about-img" />
         </div>
-
         <div className="about-text">
           <h2>SOBRE MI</h2>
-
           <div className="about-details">
             <p>
               Mi nombre es <strong>Edgar Ortiz Chico</strong>
@@ -80,6 +76,11 @@ function App() {
           </div>
         </div>
       </div>
+      
+      {/* Sección de contacto */}
+      <div className="contact-content" id="contact">
+      </div>
+
       {/* Sección de footer */}
       <footer className="footer">
           <p>
