@@ -38,13 +38,15 @@
 
 .contact-text {
 	flex: 1.5;
+  width: 30%;
 	color: #facc15;
 	font-size: 1.5rem;
 	line-height: 1.8;
 }
 
-.contact-text p {
+.contact-description {
 	flex: 1.5;
+  width: 36%;
 	color: white;
 	font-size: 1rem;
 }
@@ -59,7 +61,7 @@
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
-	margin-top: 2rem;
+  margin: 2rem;
 	text-align: center;
 	align-items: center;
   border: 3px solid #facc15;
@@ -163,16 +165,37 @@
 .youtube-btn:hover {
   background-color: #e60000;
 }
+.contact-h3 {
+  font-size: 1.5rem;
+  color: #facc15;
+  margin-bottom: 1rem;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
+  .contact-details {
+    display: block;
+    margin: 2rem 0;
+  }
+  .contact-form {
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .contact-form button{
+    width: 100%;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .contact-description {
+    width: 100%;
+  }
   .social-container {
     flex-direction: flex-start;
     align-items: center;
   }
-  
   .tooltip button {
-    min-width: 200px;
+    min-width: 150px;
     justify-content: center;
   }
 }
