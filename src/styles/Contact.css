@@ -1,0 +1,178 @@
+/* Contenedor principal */
+.social-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilos base del tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.tooltip button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #facc15;
+  position: relative;
+  display: inline-block;
+}
+
+.contact-text {
+	flex: 1.5;
+	color: #facc15;
+	font-size: 1.5rem;
+	line-height: 1.8;
+}
+
+.contact-text p {
+	flex: 1.5;
+	color: white;
+	font-size: 1rem;
+}
+
+.contact-form {
+	width: 33%;
+}
+
+.contact-details {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+	align-items: center;
+  border: 3px solid #facc15;
+  border-radius: 35px;
+  padding: 2rem;
+}
+
+.email-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  width: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  background: #facc15;
+  color: #000000;
+  border: 2px solid #facc15;
+}
+
+.email-btn:hover {
+  background: #cb9a08;
+  color: #000000;
+  border-color: #cb9a08;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tooltip button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  max-width: 180px;
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 12px;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.85) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Colores específicos para cada plataforma */
+.github-btn {
+  background-color: #333;
+}
+.github-btn:hover {
+  background-color: #24292e;
+}
+
+.facebook-btn {
+  background-color: #1877f2;
+}
+.facebook-btn:hover {
+  background-color: #166fe5;
+}
+
+.instagram-btn {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.instagram-btn:hover {
+  background: linear-gradient(45deg, #e0852e, #d45f34, #d1223b, #c21c5d, #b3157a);
+}
+
+.youtube-btn {
+  background-color: #ff0000;
+}
+.youtube-btn:hover {
+  background-color: #e60000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .social-container {
+    flex-direction: flex-start;
+    align-items: center;
+  }
+  
+  .tooltip button {
+    min-width: 200px;
+    justify-content: center;
+  }
+}
