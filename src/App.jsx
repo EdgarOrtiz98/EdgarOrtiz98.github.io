@@ -10,6 +10,7 @@ import GithubIcon from "./assets/images/github-icon.svg";
 import FacebookIcon from "./assets/images/facebook-icon.svg";
 import InstagramIcon from "./assets/images/instagram-Icon.svg";
 import YoutubeIcon from "./assets/images/youtube-icon.svg";
+import DownloadCV from "./assets/Pdf/CvEdgar.Pdf";
 
 function App() {
   return (
@@ -64,16 +65,16 @@ function App() {
           </div>
           <div className="cv-options">
             <a
-              href="/path-to-cv.pdf"
+              href="https://drive.google.com/file/d/1sBXrecoOzTN4hJKGUqJse1ktcMWvXn3h/view?usp=drive_link"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="view-btn"
             >
               Ver CV
             </a>
             <a
-              href="/path-to-cv.pdf"
-              download="CV_Edgar_Ortiz.pdf"
+              href={DownloadCV}
+              download="Edgar Ortiz CV.pdf"
               className="download-btn"
             >
               Descargar CV
