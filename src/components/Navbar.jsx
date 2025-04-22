@@ -27,7 +27,7 @@ const Navbar = () => {
         <li><a href="/#home">Inicio</a></li>
         <li><a href="/#about">Sobre mí</a></li>
         <li><a href="/#contact">Contacto</a></li>
-        {/* <li><a href="#">Portafolio</a></li> */}
+        <li><a href="/Proyectos">Proyectos</a></li>
       </ul>
     </nav>
   );
