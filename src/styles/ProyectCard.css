@@ -1,7 +1,6 @@
 .project-card {
   display: flex;
-  min-width: 20rem;
-  max-width: 50%;
+  width: 45%;
   flex-direction: column;
   border-radius: 1rem;
   color: white;
@@ -29,7 +28,7 @@
 
 @media (max-width: 768px) {
   .project-card {
-    max-width: 100%;
+    width: 100%;
   }
   .card-image {
     height: auto;
@@ -51,7 +50,31 @@
   margin-top: -1rem;
 }
 
-.card-actions {
-  padding: 1.5rem;
-  padding-top: 0;
+.card-technologies-title {
+  margin-top: 1.5rem;
+  color: #facc15;
+}
+
+.card-technologies {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.101);
+  border-radius: 1rem; padding: 1px 1rem;
+}
+
+.tech-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.tech-name {
+  font-size: 1rem;
 }
