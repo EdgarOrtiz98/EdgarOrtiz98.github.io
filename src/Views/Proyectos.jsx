@@ -47,9 +47,15 @@ function Proyectos() {
           ]}
         />
         <CardProyect
-          title="Proyecto 3"
-          description="Descripción del proyecto 3"
+          title="ColoresApp"
+          description="Esta aplicación permite a los usuarios explorar una amplia gama de colores, proporcionando información detallada sobre cada uno. Los usuarios pueden buscar colores específicos, ver sus códigos hexadecimales y RGB, y obtener sugerencias de paletas de colores complementarias. Ideal para diseñadores y entusiastas del color."
           imageUrl="/screenshot-contact.jpg"
+          technologies={[
+            { name: "Html", icon: html },
+            { name: "Css", icon: css },
+            { name: "JavaScript", icon: javascript },
+            { name: "React", icon: react },
+          ]}
         />
       </div>
     </>
