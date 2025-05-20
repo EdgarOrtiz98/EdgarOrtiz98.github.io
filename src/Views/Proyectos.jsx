@@ -57,6 +57,16 @@ function Proyectos() {
             { name: "React", icon: react },
           ]}
         />
+        <CardProyect
+          title="BuyStudy"
+          description="Es una aplicación web que permite a los usuarios gestionar sus finanzas personales/escolares de manera efectiva. Los usuarios pueden registrar ingresos y gastos, visualizar sus transacciones y establecer presupuestos mensuales. La aplicación proporciona una visión clara de la situación financiera del usuario, ayudando a tomar decisiones informadas."
+          imageUrl="/screenshot-contact.jpg"
+          technologies={[
+            { name: "Kotlin", icon: html },
+            { name: "Xml", icon: css },
+            { name: "Firebase", icon: javascript },
+          ]}
+        />
       </div>
     </>
   );
