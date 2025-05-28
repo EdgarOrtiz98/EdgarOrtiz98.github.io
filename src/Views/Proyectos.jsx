@@ -4,12 +4,16 @@ import CardProyect from "../components/ProyectCard.jsx";
 // imagenes de proyectos
 import JuegoIngles from "../assets/images/Proyect-JuegoIngles.png";
 import CriptoCoin from "../assets/images/Proyect-CriptoCoin.png";
+import BuyStudy from "../assets/images/Proyect-BuyStudy.png";
 // iconos de tecnologias de desarrollo
 import html from "../assets/Tech-Icons/html5-original.svg";
 import css from "../assets/Tech-Icons/css3-original.svg";
 import javascript from "../assets/Tech-Icons/javascript-original.svg";
 import python from "../assets/Tech-Icons/python-original.svg";
 import react from "../assets/Tech-Icons/react-original.svg";
+import kotlin from "../assets/Tech-Icons/kotlin-original.svg";
+import firebase from "../assets/Tech-Icons/firebase-plain.svg";
+import xml from "../assets/Tech-Icons/xml-original.svg";
 // import nodejs from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg";
 // import java from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg";
 // import php from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg";
@@ -60,11 +64,11 @@ function Proyectos() {
         <CardProyect
           title="BuyStudy"
           description="Es una aplicación web que permite a los usuarios gestionar sus finanzas personales/escolares de manera efectiva. Los usuarios pueden registrar ingresos y gastos, visualizar sus transacciones y establecer presupuestos mensuales. La aplicación proporciona una visión clara de la situación financiera del usuario, ayudando a tomar decisiones informadas."
-          imageUrl="/screenshot-contact.jpg"
+          imageUrl={BuyStudy}
           technologies={[
-            { name: "Kotlin", icon: html },
-            { name: "Xml", icon: css },
-            { name: "Firebase", icon: javascript },
+            { name: "Kotlin", icon: kotlin },
+            { name: "Xml", icon: xml },
+            { name: "Firebase", icon: firebase },
           ]}
         />
       </div>
