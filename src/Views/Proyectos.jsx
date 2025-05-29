@@ -71,6 +71,16 @@ function Proyectos() {
             { name: "Firebase", icon: firebase },
           ]}
         />
+        <CardProyect
+          title="Gallix"
+          description="Es una aplicacion web"></CardProyect>
+          imageUrl="/screenshot-contact.jpg"
+          technologies={[
+            { name: "Html", icon: html },
+            { name: "Css", icon: css },
+            { name: "JavaScript", icon: javascript },
+            { name: "Firebase", icon: firebase },
+          ]}
       </div>
     </>
   );
