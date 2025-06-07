@@ -6,6 +6,7 @@ import ProjectsContainer from "../components/ProjectsContainer";
 import JuegoIngles from "../assets/images/Proyect-JuegoIngles.png";
 import CriptoCoin from "../assets/images/Proyect-CriptoCoin.png";
 import BuyStudy from "../assets/images/Proyect-BuyStudy.png";
+import Gallix from "../assets/images/Proyect-Gallix.png";
 // iconos de tecnologias de desarrollo
 import html from "../assets/Tech-Icons/html5-original.svg";
 import css from "../assets/Tech-Icons/css3-original.svg";
@@ -15,6 +16,8 @@ import react from "../assets/Tech-Icons/react-original.svg";
 import kotlin from "../assets/Tech-Icons/kotlin-original.svg";
 import firebase from "../assets/Tech-Icons/firebase-plain.svg";
 import xml from "../assets/Tech-Icons/xml-original.svg";
+import php from "../assets/Tech-Icons/php-original.svg";
+import mysql from "../assets/Tech-Icons/mysql-original.svg";
 // import nodejs from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg";
 // import java from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg";
 // import php from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg";
@@ -78,13 +81,15 @@ function Proyectos() {
           />
           <CardProyect
             priority={10}
-            title="Gallix"
-            description="Es una aplicacion web"
-            imageUrl="/screenshot-contact.jpg"
+            title="Gallix - Gestión Avícola"
+            description="Aplicación web para la gestión integral de una granja avícola, que permite administrar registros de aves, control de gastos, ventas, clientes y empleados. Incluye módulos para seguimiento de procesos de crianza, catálogo de productos y sistema de comentarios."
+            imageUrl={Gallix}
             technologies={[
               { name: "Html", icon: html },
               { name: "Css", icon: css },
               { name: "JavaScript", icon: javascript },
+              { name: "PHP", icon: php },
+              { name: "MySQL", icon: mysql },
               { name: "Firebase", icon: firebase },
             ]}
           />
