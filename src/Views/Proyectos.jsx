@@ -7,6 +7,7 @@ import JuegoIngles from "../assets/images/Proyect-JuegoIngles.png";
 import CriptoCoin from "../assets/images/Proyect-CriptoCoin.png";
 import BuyStudy from "../assets/images/Proyect-BuyStudy.png";
 import Gallix from "../assets/images/Proyect-Gallix.png";
+import CarritoRescate from "../assets/images/Proyect-CarritoRescate.png";
 // iconos de tecnologias de desarrollo
 import html from "../assets/Tech-Icons/html5-original.svg";
 import css from "../assets/Tech-Icons/css3-original.svg";
@@ -18,11 +19,11 @@ import firebase from "../assets/Tech-Icons/firebase-plain.svg";
 import xml from "../assets/Tech-Icons/xml-original.svg";
 import php from "../assets/Tech-Icons/php-original.svg";
 import mysql from "../assets/Tech-Icons/mysql-original.svg";
+import cplusplus from "../assets/Tech-Icons/cplusplus-original.svg";
+import arduino from "../assets/Tech-Icons/arduino-original.svg";
 // import nodejs from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg";
 // import java from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg";
-// import php from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg";
 // import laravel from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg";
-// import mysql from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg";
 // import mongodb from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg";
 // import git from "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg";
 
@@ -58,7 +59,7 @@ function Proyectos() {
           />
           <CardProyect
             priority={8}
-            title="ColoresApp"
+            title="ColoresApp - Generador de Paletas de Colores"
             description="Esta aplicación permite a los usuarios explorar una amplia gama de colores, proporcionando información detallada sobre cada uno. Los usuarios pueden buscar colores específicos, ver sus códigos hexadecimales y RGB, y obtener sugerencias de paletas de colores complementarias. Ideal para diseñadores y entusiastas del color."
             imageUrl="/screenshot-contact.jpg"
             technologies={[
@@ -70,7 +71,7 @@ function Proyectos() {
           />
           <CardProyect
             priority={10}
-            title="BuyStudy"
+            title="BuyStudy - Gestión Financiera"
             description="Es una aplicación web que permite a los usuarios gestionar sus finanzas personales/escolares de manera efectiva. Los usuarios pueden registrar ingresos y gastos, visualizar sus transacciones y establecer presupuestos mensuales. La aplicación proporciona una visión clara de la situación financiera del usuario, ayudando a tomar decisiones informadas."
             imageUrl={BuyStudy}
             technologies={[
@@ -91,6 +92,16 @@ function Proyectos() {
               { name: "PHP", icon: php },
               { name: "MySQL", icon: mysql },
               { name: "Firebase", icon: firebase },
+            ]}
+          />
+          <CardProyect
+            priority={10}
+            title="Carrito de rescate"
+            description="Sistema de rescate controlado remotamente mediante IoT, equipado con cámara de 180°, reconocimiento de objetos, iluminación integrada y transmisión en tiempo real. Diseñado para asistir en operaciones de rescate en zonas de desastre manteniendo a los socorristas en ubicaciones seguras."
+            imageUrl={CarritoRescate}
+            technologies={[
+              { name: "C++", icon: cplusplus },
+              { name: "Arduino", icon: arduino },
             ]}
           />
         </div>
